@@ -1,7 +1,0 @@
-{
-  "breadcrumbs.enabled": true,
-  "breadcrumbs.filePath": "on",
-  "workbench.editor.closeEmptyGroups": true,
-  "explorer.expandSingleFolderWorkspaces": true,
-  "vsicons.presets.foldersAllDefaultIcon": false
-}
