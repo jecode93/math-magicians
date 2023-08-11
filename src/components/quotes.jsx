@@ -7,7 +7,7 @@ export default function Quotes(props) {
   return (
     <>
       <section className="quotes">
-        <p>{text}</p>
+        <q>{text}</q>
       </section>
     </>
   );

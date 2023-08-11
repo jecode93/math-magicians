@@ -6,8 +6,10 @@ import FetchData from './components/fetchData';
 function App() {
   return (
     <>
-      <Calculator />
-      <FetchData />
+      <main>
+        <Calculator />
+        <FetchData />
+      </main>
     </>
   );
 }
