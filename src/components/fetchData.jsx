@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import { Axios } from 'axios';
 import Quotes from './quotes';
 
 export default function FetchData() {
@@ -8,6 +7,7 @@ export default function FetchData() {
   const [hasError, setHasError] = useState(false);
   const apiKey = 'lGdmxaApU87yDaz1n5zNbS6zBKQ4lFVdikwORfjk';
   const category = 'computers';
+
   useEffect(() => {
     setIsLoading(true);
     try {
@@ -24,8 +24,10 @@ export default function FetchData() {
     }
   }, []);
 
-  if (hasError) return <div>Something went wrong!</div>;
+  if (hasError) {
+    return <div className="error">Something went wrong!</div>;
+  }
   return (
-    isLoading ? <div>Loading... </div> : <Quotes text={quote.quote} />
+    isLoading ? <div className="space">Loading... </div> : <Quotes text={quote.quote} author={quote.author} />
   );
 }
