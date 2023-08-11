@@ -72,10 +72,7 @@ Example commands:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-### Live Demo
-[Live demo available soon]()
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
