@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Quotes from './Quotes.js';
+import Quotes from './quotes';
 
 export default function FetchData() {
   const [quote, setQuote] = useState([]);
