@@ -1,0 +1,32 @@
+.quotes {
+  text-align: center;
+  background-color: #eee;
+  max-width: 50%;
+  margin-top: 3rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  color: blue;
+}
+
+.author {
+  margin-top: 1rem;
+}
+
+.space,
+.error {
+  margin-top: 1rem;
+}
+
+.space {
+  font-size: 1.5rem;
+  color: green;
+}
+
+.div-center {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
