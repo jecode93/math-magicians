@@ -73,6 +73,12 @@ Example commands:
 
 <!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo](https://jecode93-math-magicians.vercel.app)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 👥 Authors <a name="authors"></a>
 
